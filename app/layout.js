@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
         {children}
 
         <div class="sm:my-20 my-5">
-          <a class="text-indigo-500" href="https://github.com/codesamples2000/downloadfreemp3" target="_blank">GitHub</a>
+          <a class="text-indigo-500" href="https://github.com/tusk-sm/get_mp3" target="_blank">GitHub</a>
         </div>
         
         </body>

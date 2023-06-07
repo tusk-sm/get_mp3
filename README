@@ -1,0 +1,3 @@
+The search is through the shazam API (I don't know how restrictions on its use work). 
+Downloading is implemented via audio extraction from video, which returns shazam for each track. 
+Sometimes video doesn't match the requested track and there is a small chance to download wrong mp3

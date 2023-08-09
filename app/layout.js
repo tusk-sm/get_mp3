@@ -10,13 +10,13 @@ export default function RootLayout({ children }) {
  return (
     <html lang="en">
       <body className="flex flex-col items-center bg-slate-50">
-        <h1 className="text-3xl sm:text-5xl font-semibold mt-14 sm:mt-20 mb-7">Download Free MP3</h1>
+        <h1 className="text-3xl sm:text-[2.5rem] font-bold mt-14 sm:mt-20 mb-7">Download Free MP3</h1>
         <Search />
 
         {children}
 
-        <div class="sm:my-20 my-5">
-          <a class="text-indigo-500" href="https://github.com/tusk-sm/get_mp3" target="_blank">GitHub</a>
+        <div className="sm:my-20 my-5">
+          <a className="text-indigo-500" href="https://github.com/tusk-sm/get_mp3" target="_blank">GitHub</a>
         </div>
         
         </body>

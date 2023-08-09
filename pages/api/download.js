@@ -34,7 +34,7 @@ export default async (req, res)=>{
         readStream.pipe(res)      
         setTimeout(()=>{
             fs.unlinkSync(filePath)
-        }, 300) 
+        }, 5000) 
 
     }
 
